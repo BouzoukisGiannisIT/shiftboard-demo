@@ -2,6 +2,8 @@
 
 A small, standalone scheduling feature built as a public portfolio sample. It shows how an interactive roster can combine fast shift assignment, a cross-month dependency rule, coverage feedback, and a polished responsive UI.
 
+**[Open the live demo](https://bouzoukisgiannisit.github.io/shiftboard-demo/)**
+
 This repository contains **only a fictional demo**. It has no connection to a real scheduling system, database, authentication service, employee records, or API.
 
 ## Features
@@ -27,9 +29,9 @@ Open `http://127.0.0.1:4173`. There are no npm dependencies or build steps. Run 
 npm test
 ```
 
-## Publish on GitHub Pages
+## GitHub Pages
 
-Create a **new public repository** and upload the contents of this folder as its repository root. In the repository, open **Settings → Pages**, choose **Deploy from a branch**, then select the main branch and `/ (root)`. The demo uses relative paths and runs as a static site. The `.nojekyll` file is included for direct static serving.
+The live demo is published from the `main` branch and `/ (root)` directory. It uses relative paths and needs no build step. The `.nojekyll` file is included for direct static serving.
 
 ## Scope and structure
 
